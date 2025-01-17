@@ -7,5 +7,8 @@ public class Main {
 		System.out.println("Equipo 1");
 
 	}
+	public static void divisiblePorTres(int num){
+
+	}
 
 }
