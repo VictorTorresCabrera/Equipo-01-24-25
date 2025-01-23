@@ -7,8 +7,8 @@ public class Main {
 		System.out.println("Equipo 1");
 
 	}
-	public static void divisiblePorTres(int num){
-
-	}
+	public static boolean esDivisiblePorTres(int numero) {
+        return numero % 3 == 0;
+    }
 
 }
