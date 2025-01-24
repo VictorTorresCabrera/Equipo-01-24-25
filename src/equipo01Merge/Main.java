@@ -6,6 +6,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		System.out.println("Equipo 1");
 
+	//davidprados
 	}
 	public static boolean esDivisiblePorTres(int numero) {
         return numero % 3 == 0;
