@@ -1,5 +1,5 @@
 package equipo01Merge;
-
+import java.util.Scanner;
 public class TestMatematicas {
 
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class TestMatematicas {
         int numero = scanner.nextInt();
 
         // Verificar si el número es par utilizando el método esPar
-        if (Matematicas.esPar(numero)) {
+        if (Main.esPar(numero)) {
             System.out.println("El número " + numero + " es par.");
         } else {
             System.out.println("El número " + numero + " no es par.");

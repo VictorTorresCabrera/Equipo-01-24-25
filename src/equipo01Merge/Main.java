@@ -38,15 +38,18 @@ public class Main {
         
         scanner.close();
     }
-}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Equipo 1");
-
-	//davidprados
-	}
 	public static boolean esDivisiblePorTres(int numero) {
         return numero % 3 == 0;
     }
 
+	public static boolean esPar(int numero) {
+        return numero % 2 == 0;
+    }
+
+	public static boolean esDivisiblePorCinco(int numero) {
+        return numero % 5 == 0;
+    }
 }
+
+
+	
