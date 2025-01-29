@@ -20,13 +20,13 @@ public class Main {
 
         switch(opcion) {
             case 1:
-                //verificarPar(scanner);
+                System.out.println(esPar(scanner.nextInt()));
                 break;
             case 2:
-                //verificarDivisiblePorTres(scanner);
+                System.out.println(esDivisiblePorTres(scanner.nextInt()));
                 break;
             case 3:
-                //verificarDivisiblePorCinco(scanner);
+                System.out.println(esDivisiblePorCinco(scanner.nextInt()));
                 break;
             case 4:
                 System.out.println("Saliendo...");
